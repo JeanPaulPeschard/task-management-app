@@ -1,0 +1,25 @@
+.add-task-container {
+  max-width: 400px;
+  margin: 2rem auto;
+  padding: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-shadow: 2px 2px 12px #aaa;
+}
+
+.task-list-container {
+  max-width: 400px;
+  margin: 2rem auto;
+}
+
+.task-list-container ul {
+  list-style: none;
+  padding: 0;
+}
+
+.task-list-container li {
+  display: flex;
+  justify-content: space-between;
+  padding: 0.5rem;
+  border-bottom: 1px solid #ccc;
+}
